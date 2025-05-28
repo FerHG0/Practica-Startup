@@ -4,8 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <!-- banner -->
+
+  <main>
+    <div>
+      <div class="mt-10 relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+            <div class="absolute inset-0">
+              <img class="h-full w-full object-cover" src="" alt="Imagen_fondo">
+              <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+            </div>
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                <span class="block text-white">Titulo_1</span>
+                <span class="block text-gray-200">Título_2</span> 
+                <!-- se puede borrar si quieres -->
+              </h1>
+              <p class="mt-6 max-w-lg mx-auto text-center text-xl text-gray-200 sm:max-w-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maxime ducimus iusto vel tenetur rerum cupiditate dolorum, optio quia magni? Deserunt quibusdam necessitatibus modi in placeat, totam sunt dolorem consequatur.</p>
+              <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                  <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-50 sm:px-8"> Get started </a>
+                  <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-600 bg-opacity-60 hover:bg-opacity-70 sm:px-8"> Live demo </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<!-- Descripcion y quienes somos -->
+ 
+<!-- No borrar nada de esta parte porque da forma a la estructura de la página -->
+<div class="relative bg-white py-16 sm:py-24">
+  <div class="lg:mx-auto  lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+    <div class="relative sm:py-16 lg:py-0">
+      <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+        <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+        <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
+          <defs>
+            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+        </svg>
+      </div>
+      <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+
+        <!-- Card del costado izquierdo-->
+        <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
+          <img class="absolute inset-0 h-full w-full object-cover" src="" alt="Imagen_card_1">
+          <div class="absolute inset-0 bg-gray-300 mix-blend-multiply"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-400 via-gray-700 opacity-90"></div>
+          <div class="relative px-8">
+            <blockquote class="mt-8">
+              <div class="relative text-lg font-medium text-white md:flex-grow">
+                <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                </svg>
+                <p class="relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias, quos ex nam unde, vero aperiam quae reiciendis eum maiores dignissimos doloremque iure laudantium a modi. Asperiores corporis deleniti soluta!</p>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+      <!-- Descripción y contenido -->
+      <div class="pt-12 sm:pt-16 lg:pt-20">
+        <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">título_descripción</h2>
+        <div class="mt-6 text-gray-500 space-y-6">
+          <p class="text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ratione enim, dolor deserunt quod, modi eius ducimus minima vitae omnis minus labore nulla nemo corporis ullam esse a! Suscipit, esse?</p>
+          <p class="text-base leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nobis libero asperiores repellat molestias ducimus quisquam sed iusto voluptatibus quis, quidem debitis autem quam atque nostrum enim non, aliquam accusantium!</p>
+          <p class="text-base leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam fugit velit in ea consectetur enim odio veritatis! Et itaque accusamus, magnam omnis cum recusandae ipsam nesciunt pariatur impedit debitis nam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sección de servicios y productos -->
+
+<div class="bg-white">
+  <div class="py-12 sm:py-24 xl:max-w-7xl xl:mx-auto xl:px-8">
+    <div class="px-4 sm:px-6 sm:flex sm:items-center sm:justify-between lg:px-8 xl:px-0">
+      <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 mb-16">Titulo_tienda/servicios</h2>
+    </div>
+
+    <div class="mt-4 flow-root">
+      <div class="-my-2">
+        <div class="box-content py-2 relative h-80 overflow-x-auto xl:overflow-visible">
+          <div class="absolute min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-0 xl:grid xl:grid-cols-5 xl:gap-x-8">
+            <a href="#" class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
+              <span aria-hidden="true" class="absolute inset-0">
+                <img src="" alt="Producto o Servicio_1" class="w-full h-full object-center object-cover">
+              </span>
+              <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"></span>
+              <span class="relative mt-auto text-center text-xl font-bold text-white">Titulo_Producto/servicio_1</span>
+            </a>
+
+            <a href="#" class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
+              <span aria-hidden="true" class="absolute inset-0">
+                <img src="" alt="Producto o Servicio_2" class="w-full h-full object-center object-cover">
+              </span>
+              <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"></span>
+              <span class="relative mt-auto text-center text-xl font-bold text-white">Titulo_Producto/servicio_2</span>
+            </a>
+
+            <a href="#" class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
+              <span aria-hidden="true" class="absolute inset-0">
+                <img src="" alt="Producto o Servicio_3" class="w-full h-full object-center object-cover">
+              </span>
+              <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"></span>
+              <span class="relative mt-auto text-center text-xl font-bold text-white">Titulo_Producto/servicio_3</span>
+            </a>
+
+            <a href="#" class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
+              <span aria-hidden="true" class="absolute inset-0">
+                <img src="" alt="Producto o Servicio_4" class="w-full h-full object-center object-cover">
+              </span>
+              <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"></span>
+              <span class="relative mt-auto text-center text-xl font-bold text-white">Titulo_Producto/servicio_4</span>
+            </a>
+
+            <a href="#" class="relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-75 xl:w-auto">
+              <span aria-hidden="true" class="absolute inset-0">
+                <img src="" alt="Producto o Servicio_5" class="w-full h-full object-center object-cover">
+              </span>
+              <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"></span>
+              <span class="relative mt-auto text-center text-xl font-bold text-white">Titulo_Producto/servicio_5</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 px-4 sm:hidden">
+      <a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> &rarr;</span></a>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
