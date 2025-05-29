@@ -1,336 +1,460 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSolutions - Innovación Tecnológica</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f9fafb;
-        }
-        .tech-gradient {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            transition: all 0.3s ease;
-        }
-        .contact-section {
-            background-color: #f1f5f9;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSolutions - Innovación Tecnológica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb;
+    }
+
+    .tech-gradient {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      transition: all 0.3s ease;
+    }
+
+    .contact-section {
+      background-color: #f1f5f9;
+    }
+  </style>
 </head>
+
 <body>
-    <!-- Banner -->
-    <main>
+  <!-- Banner -->
+  <main>
+    <div>
+      <div class="mt-10 relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+            <div class="absolute inset-0">
+              <img class="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                alt="Imagen_fondo">
+              <div class="absolute inset-0 bg-gray-900 mix-blend-multiply opacity-70"></div>
+            </div>
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                <span class="block text-white">Impulsando el Futuro</span>
+                <span class="block text-blue-300 mt-4">con Soluciones Tecnológicas</span>
+              </h1>
+              <p class="mt-6 max-w-lg mx-auto text-center text-xl text-gray-200 sm:max-w-3xl">
+                Transformamos ideas en realidades digitales con soluciones innovadoras que impulsan el crecimiento de tu
+                negocio en la era digital.
+              </p>
+              <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                  <a href="#servicios"
+                    class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 sm:px-8">
+                    <i class="fas fa-rocket mr-2"></i> Nuestros Servicios
+                  </a>
+                  <a href="#contacto"
+                    class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 sm:px-8">
+                    <i class="fas fa-comments mr-2"></i> Contáctanos
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Descripcion y quienes somos -->
+  <div class="relative bg-white py-16 sm:py-24">
+    <div class="lg:mx-auto lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+      <div class="relative sm:py-16 lg:py-0">
+        <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+          <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+          <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392"
+            fill="none" viewBox="0 0 404 392">
+            <defs>
+              <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
+                patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+          </svg>
+        </div>
+        <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+          <!-- Card del costado izquierdo-->
+          <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
+            <img class="absolute inset-0 h-full w-full object-cover"
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+              alt="Equipo tecnológico">
+            <div class="absolute inset-0 bg-gray-300 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-700 via-gray-900 opacity-90"></div>
+            <div class="relative px-8">
+              <blockquote class="mt-8">
+                <div class="relative text-lg font-medium text-white md:flex-grow">
+                  <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-blue-400"
+                    fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                    <path
+                      d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p class="relative">
+                    "En TechSolutions, combinamos experiencia técnica con visión estratégica para crear soluciones que
+                    transforman industrias y mejoran vidas."
+                  </p>
+                </div>
+                <footer class="mt-4">
+                  <p class="text-base font-semibold text-blue-300">María Rodríguez, CEO & Fundadora</p>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+        <!-- Descripción y contenido -->
+        <div class="pt-12 sm:pt-16 lg:pt-20">
+          <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">Quiénes Somos</h2>
+          <div class="mt-6 text-gray-600 space-y-6">
+            <p class="text-lg">
+              TechSolutions es una empresa líder en desarrollo tecnológico con más de 10 años de experiencia creando
+              soluciones digitales innovadoras para empresas de diversos sectores.
+            </p>
+            <p class="text-base leading-7">
+              Nuestro equipo de expertos en desarrollo de software, inteligencia artificial, ciberseguridad y análisis
+              de datos trabaja para transformar tus desafíos empresariales en oportunidades de crecimiento.
+            </p>
+            <p class="text-base leading-7">
+              Combinamos metodologías ágiles con tecnologías de vanguardia para ofrecer productos escalables, seguros y
+              centrados en el usuario, que impulsan la eficiencia operativa y la ventaja competitiva.
+            </p>
+          </div>
+          <div class="mt-8">
+            <div class="flex items-center">
+              <div class="flex-shrink-0 bg-blue-500 rounded-md p-2">
+                <i class="fas fa-lightbulb text-white text-xl"></i>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-lg font-medium text-gray-900">Nuestra Misión</h4>
+                <p class="mt-1 text-gray-600">Impulsar la transformación digital mediante soluciones tecnológicas
+                  innovadoras que generen valor sostenible.</p>
+              </div>
+            </div>
+            <div class="flex items-center mt-6">
+              <div class="flex-shrink-0 bg-blue-500 rounded-md p-2">
+                <i class="fas fa-eye text-white text-xl"></i>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-lg font-medium text-gray-900">Nuestra Visión</h4>
+                <p class="mt-1 text-gray-600">Ser el socio tecnológico preferido para empresas que buscan liderar en la
+                  era digital.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de servicios y productos -->
+  <div class="bg-gray-50 py-16" id="servicios">
+    <div class="py-12 sm:py-16 xl:max-w-7xl xl:mx-auto xl:px-8">
+      <div class="px-4 sm:px-6 sm:flex sm:items-center sm:justify-between lg:px-8 xl:px-0">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 mb-4">Nuestros Servicios Tecnológicos</h2>
+        <p class="text-gray-600 max-w-2xl">Soluciones innovadoras diseñadas para impulsar tu transformación digital</p>
+      </div>
+
+      <div class="mt-4 flow-root">
+        <div class="-my-2">
+          <div class="box-content py-2 relative overflow-x-auto xl:overflow-visible">
+            <div
+              class="min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-8 xl:grid xl:grid-cols-5 xl:gap-x-8">
+              <a href="#"
+                class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
+                <span aria-hidden="true" class="absolute inset-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Desarrollo de Software" class="w-full h-full object-center object-cover">
+                </span>
+                <span aria-hidden="true"
+                  class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
+                <span class="relative mt-auto text-center text-xl font-bold text-white">
+                  <i class="fas fa-code mr-2"></i> Desarrollo de Software
+                </span>
+              </a>
+
+              <a href="#"
+                class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
+                <span aria-hidden="true" class="absolute inset-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Inteligencia Artificial" class="w-full h-full object-center object-cover">
+                </span>
+                <span aria-hidden="true"
+                  class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
+                <span class="relative mt-auto text-center text-xl font-bold text-white">
+                  <i class="fas fa-brain mr-2"></i> Inteligencia Artificial
+                </span>
+              </a>
+
+              <a href="#"
+                class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
+                <span aria-hidden="true" class="absolute inset-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80"
+                    alt="Ciberseguridad" class="w-full h-full object-center object-cover">
+                </span>
+                <span aria-hidden="true"
+                  class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
+                <span class="relative mt-auto text-center text-xl font-bold text-white">
+                  <i class="fas fa-shield-alt mr-2"></i> Ciberseguridad
+                </span>
+              </a>
+
+              <a href="#"
+                class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
+                <span aria-hidden="true" class="absolute inset-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Cloud Computing" class="w-full h-full object-center object-cover">
+                </span>
+                <span aria-hidden="true"
+                  class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
+                <span class="relative mt-auto text-center text-xl font-bold text-white">
+                  <i class="fas fa-cloud mr-2"></i> Cloud Computing
+                </span>
+              </a>
+
+              <a href="#"
+                class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
+                <span aria-hidden="true" class="absolute inset-0">
+                  <img
+                    src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                    alt="Analítica de Datos" class="w-full h-full object-center object-cover">
+                </span>
+                <span aria-hidden="true"
+                  class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
+                <span class="relative mt-auto text-center text-xl font-bold text-white">
+                  <i class="fas fa-chart-line mr-2"></i> Analítica de Datos
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+            <i class="fas fa-users text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900">Clientes Satisfechos</h3>
+          <p class="mt-2 text-gray-600">Más de 200 empresas confían en nuestras soluciones tecnológicas para impulsar su
+            crecimiento.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+            <i class="fas fa-project-diagram text-green-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900">Proyectos Completados</h3>
+          <p class="mt-2 text-gray-600">Hemos entregado más de 500 proyectos tecnológicos con éxito en los últimos 5
+            años.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+            <i class="fas fa-headset text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900">Soporte Continuo</h3>
+          <p class="mt-2 text-gray-600">Ofrecemos soporte técnico 24/7 para garantizar el funcionamiento óptimo de tus
+            sistemas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario de contacto -->
+  <main class="overflow-hidden contact-section" id="contacto">
+    <div class="bg-warm-gray-50">
+      <div class="py-24 lg:py-32">
+        <div class="relative z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8">
+          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Transforma tu Negocio
+            con Tecnología</h1>
+          <p class="mt-6 text-xl text-gray-600 max-w-3xl">
+            ¿Listo para llevar tu empresa al siguiente nivel? Completa el formulario y nuestro equipo se pondrá en
+            contacto contigo para diseñar una solución a medida.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- estructura y decoración del formulario -->
+    <section class="relative bg-white mb-16" aria-labelledby="contact-heading">
+      <div class="absolute w-full h-1/2 bg-gray-50" aria-hidden="true"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <svg
+          class="absolute z-0 top-0 right-0 transform -translate-y-16 translate-x-1/2 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72"
+          width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+          <defs>
+            <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20"
+              patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="4" height="4" class="text-gray-100" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+        </svg>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="relative bg-white shadow-xl rounded-xl">
+          <div class="grid grid-cols-1 lg:grid-cols-3">
+            <!-- Informacion del contacto -->
+            <div class="relative overflow-hidden py-10 px-6 tech-gradient sm:px-10 xl:p-12">
+              <h3 class="text-lg font-medium text-white mb-6">Información de Contacto</h3>
+              <p class="mt-2 text-base text-blue-100 max-w-3xl">
+                Estamos disponibles para responder tus preguntas y ayudarte a encontrar la solución tecnológica perfecta
+                para tu negocio.
+              </p>
+              <dl class="mt-8 space-y-6">
+                <dt><span class="sr-only">Phone number</span></dt>
+                <dd class="flex text-base text-blue-100">
+                  <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="ml-3">+34 912 345 678</span>
+                </dd>
+                <dt><span class="sr-only">Email</span></dt>
+                <dd class="flex text-base text-blue-100">
+                  <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span class="ml-3">info@techsolutions.com</span>
+                </dd>
+                <dt><span class="sr-only">Address</span></dt>
+                <dd class="flex text-base text-blue-100">
+                  <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span class="ml-3">Av. de la Innovación, 123, Madrid</span>
+                </dd>
+              </dl>
+              <ul role="list" class="mt-8 flex space-x-6">
+                <li>
+                  <a class="text-blue-200 hover:text-white" href="#">
+                    <span class="sr-only">Facebook</span>
+                    <i class="fab fa-facebook text-xl"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-blue-200 hover:text-white" href="#">
+                    <span class="sr-only">Twitter</span>
+                    <i class="fab fa-twitter text-xl"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-blue-200 hover:text-white" href="#">
+                    <span class="sr-only">Instagram</span>
+                    <i class="fab fa-instagram text-xl"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-blue-200 hover:text-white" href="#">
+                    <span class="sr-only">LinkedIn</span>
+                    <i class="fab fa-linkedin text-xl"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+              <!-- <h3 class="text-lg font-medium text-gray-900 mb-6">¿Cómo podemos ayudarte?</h3> -->
+              <!-- FORMULARIO -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="col-span-1">
+          <h3 class="text-white text-lg font-semibold mb-4">TechSolutions</h3>
+          <p class="text-gray-400">
+            Impulsando la transformación digital con soluciones tecnológicas innovadoras.
+          </p>
+          <div class="mt-4 flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
         <div>
-            <div class="mt-10 relative">
-                <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
-                        <div class="absolute inset-0">
-                            <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Imagen_fondo">
-                            <div class="absolute inset-0 bg-gray-900 mix-blend-multiply opacity-70"></div>
-                        </div>
-                        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                            <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                                <span class="block text-white">Impulsando el Futuro</span>
-                                <span class="block text-blue-300 mt-4">con Soluciones Tecnológicas</span>
-                            </h1>
-                            <p class="mt-6 max-w-lg mx-auto text-center text-xl text-gray-200 sm:max-w-3xl">
-                                Transformamos ideas en realidades digitales con soluciones innovadoras que impulsan el crecimiento de tu negocio en la era digital.
-                            </p>
-                            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                                <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                    <a href="#servicios" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 sm:px-8"> 
-                                        <i class="fas fa-rocket mr-2"></i> Nuestros Servicios
-                                    </a>
-                                    <a href="#contacto" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 sm:px-8">
-                                        <i class="fas fa-comments mr-2"></i> Contáctanos
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <h3 class="text-white text-lg font-semibold mb-4">Servicios</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">Desarrollo de Software</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Inteligencia Artificial</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Ciberseguridad</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Cloud Computing</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Analítica de Datos</a></li>
+          </ul>
         </div>
-    </main>
-
-    <!-- Descripcion y quienes somos -->
-    <div class="relative bg-white py-16 sm:py-24">
-        <div class="lg:mx-auto lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
-            <div class="relative sm:py-16 lg:py-0">
-                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-                    <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
-                    <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
-                        <defs>
-                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                            </pattern>
-                        </defs>
-                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
-                    </svg>
-                </div>
-                <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-                    <!-- Card del costado izquierdo-->
-                    <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-                        <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Equipo tecnológico">
-                        <div class="absolute inset-0 bg-gray-300 mix-blend-multiply"></div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-gray-700 via-gray-900 opacity-90"></div>
-                        <div class="relative px-8">
-                            <blockquote class="mt-8">
-                                <div class="relative text-lg font-medium text-white md:flex-grow">
-                                    <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-blue-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                                        <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                                    </svg>
-                                    <p class="relative">
-                                        "En TechSolutions, combinamos experiencia técnica con visión estratégica para crear soluciones que transforman industrias y mejoran vidas."
-                                    </p>
-                                </div>
-                                <footer class="mt-4">
-                                    <p class="text-base font-semibold text-blue-300">María Rodríguez, CEO & Fundadora</p>
-                                </footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-                <!-- Descripción y contenido -->
-                <div class="pt-12 sm:pt-16 lg:pt-20">
-                    <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">Quiénes Somos</h2>
-                    <div class="mt-6 text-gray-600 space-y-6">
-                        <p class="text-lg">
-                            TechSolutions es una empresa líder en desarrollo tecnológico con más de 10 años de experiencia creando soluciones digitales innovadoras para empresas de diversos sectores.
-                        </p>
-                        <p class="text-base leading-7">
-                            Nuestro equipo de expertos en desarrollo de software, inteligencia artificial, ciberseguridad y análisis de datos trabaja para transformar tus desafíos empresariales en oportunidades de crecimiento.
-                        </p>
-                        <p class="text-base leading-7">
-                            Combinamos metodologías ágiles con tecnologías de vanguardia para ofrecer productos escalables, seguros y centrados en el usuario, que impulsan la eficiencia operativa y la ventaja competitiva.
-                        </p>
-                    </div>
-                    <div class="mt-8">
-                        <div class="flex items-center">
-                            <div class="flex-shrink-0 bg-blue-500 rounded-md p-2">
-                                <i class="fas fa-lightbulb text-white text-xl"></i>
-                            </div>
-                            <div class="ml-4">
-                                <h4 class="text-lg font-medium text-gray-900">Nuestra Misión</h4>
-                                <p class="mt-1 text-gray-600">Impulsar la transformación digital mediante soluciones tecnológicas innovadoras que generen valor sostenible.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-center mt-6">
-                            <div class="flex-shrink-0 bg-blue-500 rounded-md p-2">
-                                <i class="fas fa-eye text-white text-xl"></i>
-                            </div>
-                            <div class="ml-4">
-                                <h4 class="text-lg font-medium text-gray-900">Nuestra Visión</h4>
-                                <p class="mt-1 text-gray-600">Ser el socio tecnológico preferido para empresas que buscan liderar en la era digital.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">Inicio</a></li>
+            <li><a href="#servicios" class="text-gray-400 hover:text-white">Servicios</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Proyectos</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+            <li><a href="#contacto" class="text-gray-400 hover:text-white">Contacto</a></li>
+          </ul>
         </div>
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Contacto</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li class="flex items-start">
+              <i class="fas fa-map-marker-alt mt-1 mr-2 text-blue-400"></i>
+              <span>Av. de la Innovación, 123, Madrid</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-phone mt-1 mr-2 text-blue-400"></i>
+              <span>+34 912 345 678</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-envelope mt-1 mr-2 text-blue-400"></i>
+              <span>info@techsolutions.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Sección de servicios y productos -->
-    <div class="bg-gray-50 py-16" id="servicios">
-        <div class="py-12 sm:py-16 xl:max-w-7xl xl:mx-auto xl:px-8">
-            <div class="px-4 sm:px-6 sm:flex sm:items-center sm:justify-between lg:px-8 xl:px-0">
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 mb-4">Nuestros Servicios Tecnológicos</h2>
-                <p class="text-gray-600 max-w-2xl">Soluciones innovadoras diseñadas para impulsar tu transformación digital</p>
-            </div>
-
-            <div class="mt-4 flow-root">
-                <div class="-my-2">
-                    <div class="box-content py-2 relative overflow-x-auto xl:overflow-visible">
-                        <div class="min-w-screen-xl px-4 flex space-x-8 sm:px-6 lg:px-8 xl:relative xl:px-0 xl:space-x-8 xl:grid xl:grid-cols-5 xl:gap-x-8">
-                            <a href="#" class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
-                                <span aria-hidden="true" class="absolute inset-0">
-                                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Desarrollo de Software" class="w-full h-full object-center object-cover">
-                                </span>
-                                <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
-                                <span class="relative mt-auto text-center text-xl font-bold text-white">
-                                    <i class="fas fa-code mr-2"></i> Desarrollo de Software
-                                </span>
-                            </a>
-
-                            <a href="#" class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
-                                <span aria-hidden="true" class="absolute inset-0">
-                                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Inteligencia Artificial" class="w-full h-full object-center object-cover">
-                                </span>
-                                <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
-                                <span class="relative mt-auto text-center text-xl font-bold text-white">
-                                    <i class="fas fa-brain mr-2"></i> Inteligencia Artificial
-                                </span>
-                            </a>
-
-                            <a href="#" class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
-                                <span aria-hidden="true" class="absolute inset-0">
-                                    <img src="https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80" alt="Ciberseguridad" class="w-full h-full object-center object-cover">
-                                </span>
-                                <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
-                                <span class="relative mt-auto text-center text-xl font-bold text-white">
-                                    <i class="fas fa-shield-alt mr-2"></i> Ciberseguridad
-                                </span>
-                            </a>
-
-                            <a href="#" class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
-                                <span aria-hidden="true" class="absolute inset-0">
-                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Cloud Computing" class="w-full h-full object-center object-cover">
-                                </span>
-                                <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
-                                <span class="relative mt-auto text-center text-xl font-bold text-white">
-                                    <i class="fas fa-cloud mr-2"></i> Cloud Computing
-                                </span>
-                            </a>
-
-                            <a href="#" class="service-card relative w-56 h-80 rounded-lg p-6 flex flex-col overflow-hidden hover:opacity-90 xl:w-auto">
-                                <span aria-hidden="true" class="absolute inset-0">
-                                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Analítica de Datos" class="w-full h-full object-center object-cover">
-                                </span>
-                                <span aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-900 opacity-80"></span>
-                                <span class="relative mt-auto text-center text-xl font-bold text-white">
-                                    <i class="fas fa-chart-line mr-2"></i> Analítica de Datos
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-6">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                        <i class="fas fa-users text-blue-600 text-xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900">Clientes Satisfechos</h3>
-                    <p class="mt-2 text-gray-600">Más de 200 empresas confían en nuestras soluciones tecnológicas para impulsar su crecimiento.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
-                        <i class="fas fa-project-diagram text-green-600 text-xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900">Proyectos Completados</h3>
-                    <p class="mt-2 text-gray-600">Hemos entregado más de 500 proyectos tecnológicos con éxito en los últimos 5 años.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
-                        <i class="fas fa-headset text-purple-600 text-xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900">Soporte Continuo</h3>
-                    <p class="mt-2 text-gray-600">Ofrecemos soporte técnico 24/7 para garantizar el funcionamiento óptimo de tus sistemas.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Formulario de contacto -->
-    <main class="overflow-hidden contact-section" id="contacto">
-        <div class="bg-warm-gray-50">
-            <div class="py-24 lg:py-32">
-                <div class="relative z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8">
-                    <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Transforma tu Negocio con Tecnología</h1>
-                    <p class="mt-6 text-xl text-gray-600 max-w-3xl">
-                        ¿Listo para llevar tu empresa al siguiente nivel? Completa el formulario y nuestro equipo se pondrá en contacto contigo para diseñar una solución a medida.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- estructura y decoración del formulario -->
-        <section class="relative bg-white mb-16" aria-labelledby="contact-heading">
-            <div class="absolute w-full h-1/2 bg-gray-50" aria-hidden="true"></div>
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <svg class="absolute z-0 top-0 right-0 transform -translate-y-16 translate-x-1/2 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
-                    <defs>
-                        <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                            <rect x="0" y="0" width="4" height="4" class="text-gray-100" fill="currentColor" />
-                        </pattern>
-                    </defs>
-                    <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
-                </svg>
-            </div>
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="relative bg-white shadow-xl rounded-xl">
-                    <div class="grid grid-cols-1 lg:grid-cols-3">
-                        <!-- Informacion del contacto -->
-                        <div class="relative overflow-hidden py-10 px-6 tech-gradient sm:px-10 xl:p-12">
-                            <h3 class="text-lg font-medium text-white mb-6">Información de Contacto</h3>
-                            <p class="mt-2 text-base text-blue-100 max-w-3xl">
-                                Estamos disponibles para responder tus preguntas y ayudarte a encontrar la solución tecnológica perfecta para tu negocio.
-                            </p>
-                            <dl class="mt-8 space-y-6">
-                                <dt><span class="sr-only">Phone number</span></dt>
-                                <dd class="flex text-base text-blue-100">
-                                    <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                    </svg>
-                                    <span class="ml-3">+34 912 345 678</span>
-                                </dd>
-                                <dt><span class="sr-only">Email</span></dt>
-                                <dd class="flex text-base text-blue-100">
-                                    <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                    </svg>
-                                    <span class="ml-3">info@techsolutions.com</span>
-                                </dd>
-                                <dt><span class="sr-only">Address</span></dt>
-                                <dd class="flex text-base text-blue-100">
-                                    <svg class="flex-shrink-0 w-6 h-6 text-blue-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                    </svg>
-                                    <span class="ml-3">Av. de la Innovación, 123, Madrid</span>
-                                </dd>
-                            </dl>
-                            <ul role="list" class="mt-8 flex space-x-6">
-                                <li>
-                                    <a class="text-blue-200 hover:text-white" href="#">
-                                        <span class="sr-only">Facebook</span>
-                                        <i class="fab fa-facebook text-xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="text-blue-200 hover:text-white" href="#">
-                                        <span class="sr-only">Twitter</span>
-                                        <i class="fab fa-twitter text-xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="text-blue-200 hover:text-white" href="#">
-                                        <span class="sr-only">Instagram</span>
-                                        <i class="fab fa-instagram text-xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="text-blue-200 hover:text-white" href="#">
-                                        <span class="sr-only">LinkedIn</span>
-                                        <i class="fab fa-linkedin text-xl"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>   
-                        <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-                            <h3 class="text-lg font-medium text-gray-900 mb-6">¿Cómo podemos ayudarte?</h3>
-                            <!-- FORMULARIO -->
-                          
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
+  </footer>
 </body>
+
 </html>
